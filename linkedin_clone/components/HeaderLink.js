@@ -1,7 +1,7 @@
-function HeaderLink() {
+function HeaderLink(props) {
   return ( 
   <div>
-headerlinkss
+{props.text}
   </div>
   )
 }
