@@ -2,7 +2,7 @@ function HeaderLink({ Icon, text, avatar, feed }) {
   return ( 
   <div className={`cursor-pointer flex flex-col justify-center items-center `}>
   {avatar ? (
-<Icon className="!h=7 !w=7 lg:!mb-1" />
+<Icon className="!h=7 !w=7 lg:!mb-2" />
   ): (
       <Icon/>
   )}
