@@ -6,7 +6,7 @@ function HeaderLink({ Icon, text, avatar, feed }) {
   ): (
       <Icon/>
   )}
-  <h4 className="text-sm">{}</h4>
+  <h4 className="text-sm">{text}</h4>
   </div>
   )
 }
