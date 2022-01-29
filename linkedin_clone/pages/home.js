@@ -20,8 +20,10 @@ function Home() {
             <HeaderLink Icon={OndemandVideoSharpIcon} text="Learning" />
             <HeaderLink Icon={BusinessCenterIcon} text="Jobs" />
           </div>
+          <div className="pl-4">
           <button className="text-blue-700 font-semibold rounded-full border border-blue-700 px-1.5
           transition-all hover:border-2">Sign in</button>
+          </div>
           </div>
       </header>
   </div>
