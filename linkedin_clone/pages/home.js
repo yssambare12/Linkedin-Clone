@@ -22,10 +22,19 @@ function Home() {
           </div>
           <div className="pl-4">
           <button className="text-blue-700 font-semibold rounded-full border border-blue-700 px-1.5
-          transition-all hover:border-2">Sign in</button>
+          transition-all hover:border-2">
+          Sign in
+          </button>
           </div>
           </div>
       </header>
+      <main className="flex flex-col xl:flex-row items-center max-w-screen-lg mx-auto">
+      <div className="space-y-6 sl:space-y-10">
+      <h1 className="text-3xl- md:text-5xl text-amber-800/80 max-w-xl !leading-sung pl-4 xl:pl-0">Welcome to Professional Community</h1>
+      </div>
+
+
+      </main>
   </div>
   )
 }
