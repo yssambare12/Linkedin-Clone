@@ -46,6 +46,9 @@ function Home() {
             </div>
       </div>
       </div>
+      <div className="relative xl:absolute w-70 h-70 xl:w-[550px] xl:h-[550px] top-14 right-5">
+      <Image src="https://rb.gy/vkzpzt" layout="fill" priority />
+      </div>
 
 
       </main>
