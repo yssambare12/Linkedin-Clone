@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .intent {
+        @apply flex justify-between items-center hover:shadow-xl p-4;
+    }
+}
