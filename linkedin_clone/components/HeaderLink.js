@@ -9,7 +9,7 @@ function HeaderLink({ Icon, text, avatar, feed }) {
   ): (
       <Icon/>
   )}
-  <h4 className="text-sm">{text}</h4>
+  <h3 className="text-sm">{text}</h3>
   </div>
   )
 }
