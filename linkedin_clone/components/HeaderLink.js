@@ -14,4 +14,4 @@ function HeaderLink({ Icon, text, avatar, feed }) {
   )
 }
 
-export default HeaderLink;
+export default HeaderLink
